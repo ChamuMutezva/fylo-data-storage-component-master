@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+}
 main {
     background-image: url('./images/bg-mobile.svg');
     background-repeat: no-repeat ;
@@ -44,6 +47,7 @@ main {
     background-color: hsl(229, 57%, 11%);
     border-radius: 40px;
     padding: 4px;
+    margin-bottom: 35px;
 }
 input[type="range"] {
     position: relative;
@@ -52,7 +56,8 @@ input[type="range"] {
     margin: auto;
     -webkit-appearance: none;
     border-radius: 7px;
-    background: linear-gradient(to right , hsl(6, 100%, 80%) , hsl(335, 100%, 65%));     
+    background: linear-gradient(to right , hsl(6, 100%, 80%) , hsl(335, 100%, 65%));    
+    outline: none; 
     }
     input[type="range"]::after {
         content: "1000 GB";
@@ -71,5 +76,17 @@ input[type="range"] {
         position: absolute;
     }
     .valueDisplay {
-        margin-top: 40px;
+        position: absolute;
+    /* margin-top: 40px; */
+    left: 25%;
+    color: black;
+    background-color: white;
+    width: 50%;
+   /* margin: 8% auto;*/
+    padding: 30px;
+    border-radius: 20px;
+    }
+    span#gbLeft {
+        font-size: 2rem;
+        font-weight: 800;
     }
