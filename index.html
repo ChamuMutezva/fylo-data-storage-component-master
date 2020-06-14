@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,700&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Fylo data storage component</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,39 +18,41 @@
     <div class="container">
       <div class="logo">
         <img src="./images/logo.svg" alt="logo">
-      </div>      
+      </div>
       <div class="primary">
         <div class="docs">
-          <img src="./images/icon-document.svg" alt="">          
+          <img src="./images/icon-document.svg" alt="">
         </div>
         <div class="docs">
-          <img src="./images/icon-folder.svg" alt="">         
+          <img src="./images/icon-folder.svg" alt="">
         </div>
         <div class="docs">
           <img src="./images/icon-upload.svg" alt="">
         </div>
-       
+
       </div>
     </div>
 
-    <div class="secondary">      
-        <p> You’ve used <span id="gbUsed"></span> GB of your storage</p>
-        <div class="rangeCtrl">
-          <input type="range" name="" id="slider" min="0" max="1000">  
-        </div>       
+    <div class="secondary">
+      <p> You’ve used <span id="gbUsed"></span> GB of your storage</p>
+      <div class="rangeCtrl">
+        <label>
+          <input type="range" name="" id="slider" min="0" max="1000">
+        </label>
+      </div>
       <!--  <p>  185          0 GB          1000 GB    </p> -->
       <div class="valueDisplay">
-       <span id="gbLeft"></span> GB Left 
+        <span id="gbLeft"></span> GB Left
       </div>
-         
-    </div>
-   
 
-   
+    </div>
+
+
+
   </main>
 
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>

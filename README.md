@@ -1,5 +1,5 @@
 # Frontend Mentor - Fylo data storage component
-
+live preview: https://chamumutezva.github.io/fylo-data-storage-component-master/
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

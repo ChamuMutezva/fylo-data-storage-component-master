@@ -10,3 +10,10 @@ slider.oninput = () => {
     gbLeft.innerHTML = 1000 - slider.value;
     gbUsed.innerHTML = slider.value;
 }
+
+slider.addEventListener("mousemove", ()=> {
+    let x = slider.value;
+    let color = "linear-gradient(90deg , hsl(6, 100%, 80%)" + x + "% , hsl(335, 100%, 65%)" + x + "60%)"
+    console.log(x);
+    slider.style.background = color;
+})
