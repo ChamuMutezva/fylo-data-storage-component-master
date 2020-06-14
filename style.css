@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    background-color:  hsl(228, 56%, 26%);
+    padding-bottom: 50px;
+    border-radius: 10px 120px 10px 10px;
+}
+.logo img {
+    padding: 40px;
+}
+.primary {
+    padding-left: 40px;
+   display: flex;
+}
+.docs {
+    margin-right: 40px;
+}
+.docs img {
+    padding: 10px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;   
+}
+.secondary {
+    width: 90%;
+    margin: 30px auto;   
+    padding: 40px; 
+    background-color:  hsl(228, 56%, 26%);
+    color: white;
+    border-radius: 10px;
+}
+.rangeCtrl {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 40px;
+    padding: 4px;
+}
+input[type="range"] {
+    position: relative;
+    width: 98%;
+    display: block;
+    margin: auto;
+    -webkit-appearance: none;
+    border-radius: 7px;
+    background: linear-gradient(to right , hsl(6, 100%, 80%) , hsl(335, 100%, 65%));     
+    }
+    input[type="range"]::after {
+        content: "1000 GB";
+        color: white;
+        top: 25px;
+        left: 80%;
+        width: 25%;
+        position: absolute;
+    }
+    input[type="range"]::before {
+        content: "0 GB";
+        color: white;
+        top: 25px;
+        left: 0%;
+        width: 25%;
+        position: absolute;
+    }
+    .valueDisplay {
+        margin-top: 40px;
+    }
