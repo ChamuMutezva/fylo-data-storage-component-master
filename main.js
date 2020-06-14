@@ -1,9 +1,12 @@
 const slider = document.getElementById("slider");
-const output = document.getElementById("value");
+const gbLeft = document.getElementById("gbLeft");
+const gbUsed = document.getElementById("gbUsed");
 console.log(slider);
-console.log(output);
+console.log(gbLeft);
 
-output.innerHTML = slider.value;
+gbUsed.innerHTML = slider.value;
+gbLeft.innerHTML = 1000 - slider.value;
 slider.oninput = () => {
-    output.innerHTML = slider.value;
+    gbLeft.innerHTML = 1000 - slider.value;
+    gbUsed.innerHTML = slider.value;
 }
