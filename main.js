@@ -13,7 +13,9 @@ slider.oninput = () => {
 
 slider.addEventListener("mousemove", ()=> {
     let x = slider.value;
-    let color = "linear-gradient(90deg , hsl(6, 100%, 80%)" + x + "% , hsl(335, 100%, 65%)" + x + "60%)"
+   // let color = "linear-gradient(90deg , hsl(6, 100%, 80%)" + x/10 + "% , hsl(335, 100%, 65%)" + x/10 + "%)"; hsl(229, 57%, 11%) 60%);  
+   // let color = "linear-gradient(90deg , hsl(6, 100%, 80%)" + x/10 + "% , hsl(229, 57%, 11%)" + x/10 + "%)";  
+   let color = "linear-gradient(90deg , hsl(6, 100%, 80%)" + x/10 + "% , hsl(335, 100%, 65%)" + x/10 + "%,  hsl(229, 57%, 11%)" + x/10 + "%)";  
     console.log(x);
     slider.style.background = color;
 })
