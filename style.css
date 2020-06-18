@@ -109,15 +109,19 @@ input[type="range"] {
 @media screen and (min-width: 980px) {
     main {       
         display: flex;
-        padding: 292px 315px;
+        padding: 277px 226px;
        /* background-color: hsl(229, 57%, 11%);*/
         background-image: url("./images/bg-desktop.svg");
         background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 50%;
     }
+    logo {
+        margin-left: 15px;
+        margin-top: 27px;
+    }
     .container {
-        width: 48%;
+        width: 36%;
         border-radius: 10px 110px 10px 10px;
     }
     .secondary {
