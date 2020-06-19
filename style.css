@@ -37,6 +37,7 @@ main {
     border-radius: 10px;   
 }
 .secondary {
+    position: relative;
     width: 90%;
     margin: 30px auto;   
     padding: 40px; 
@@ -86,7 +87,7 @@ input[type="range"] {
     background-color: white;
     width: 50%;
    /* margin: 8% auto;*/
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     }
     span#gbLeft {
@@ -109,39 +110,43 @@ input[type="range"] {
 @media screen and (min-width: 980px) {
     main {       
         display: flex;
-        padding: 277px 226px;
+        padding: 276px 229px;
        /* background-color: hsl(229, 57%, 11%);*/
         background-image: url("./images/bg-desktop.svg");
         background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 50%;
     }
-    logo {
-        margin-left: 15px;
-        margin-top: 27px;
+    .docs {
+        margin-right: 30px;
+        margin-top: -9px;
+    }
+    .logo img {
+        margin-top: 0px;
+        padding: 40px 39px;
     }
     .container {
         width: 36%;
         border-radius: 10px 110px 10px 10px;
+        padding-bottom: 24px;
     }
     .secondary {
         width: 50%;
     }
     .valueDisplay {      
-        left: 68%;
-        top: 15%;       
-        width: 15%;   
-   
+        left: 49%;
+        top: -41%;
+        width: 39%;
     }
     .valueDisplay::after {
         position: absolute;
         content: "";
-   background: transparent;
-    top: 74px;
-    left: 79%;
-    transform: rotate(92deg);
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 50px solid white;    
+        background: transparent;
+        top: 50px;
+        left: 140px;
+        transform: rotate(92deg);
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 50px solid white;
     }
 }
