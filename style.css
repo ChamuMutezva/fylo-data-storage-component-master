@@ -58,7 +58,9 @@ input[type="range"] {
     display: block;
    /* margin: auto; */
     -webkit-appearance: none;
-    border-radius: 7px;     
+    border-radius: 7px; 
+    background:  -webkit-linear-gradient(90deg , hsl(6, 100%, 80%) 82% , hsl(335, 100%, 65%) 60%, hsl(229, 57%, 11%) 60%) ; 
+    background: -moz-linear-gradient(90deg , hsl(6, 100%, 80%) 82% , hsl(335, 100%, 65%) 60%, hsl(229, 57%, 11%) 60%); 
     background: linear-gradient(90deg , hsl(6, 100%, 80%) 82% , hsl(335, 100%, 65%) 60%, hsl(229, 57%, 11%) 60%);  
     outline: none; 
     }
