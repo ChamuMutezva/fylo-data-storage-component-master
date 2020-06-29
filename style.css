@@ -140,7 +140,7 @@ input[type="range"] {
     }
     .secondary {
         width: 56%;
-        margin: 58px auto 0;
+        margin: 45px auto 0;
         padding: 20px 40px;
     }
     .valueDisplay {      
@@ -162,5 +162,12 @@ input[type="range"] {
     .rangeCtrl {       
         padding: 5px;       
         margin-left: -12px;
+    }
+}
+@media screen and (min-width: 1450px) {
+    body {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 1240px;
     }
 }
